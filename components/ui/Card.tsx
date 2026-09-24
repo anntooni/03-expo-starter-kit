@@ -29,7 +29,7 @@ export const Card: React.FC<CardProps> = ({
   style,
   ...props
 }) => {
-  // TODO [RETO 02]: Asegura que el contenedor tenga bordes negros de 3px, sombra dura negra de 4px y esquinas redondeadas
+
   const bgClass = colorVariantes[variante] || colorVariantes.default;
 
   return (
